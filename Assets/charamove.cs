@@ -33,134 +33,90 @@ public class charamove : MonoBehaviour
       num++;
       if (num == 0)
       {
-        //Position.x += 1.5f;
         tmp.x += 1.5f;
-        //transform.position = Vector2.MoveTowards(tmp, Position, step);
       }
       else if (num == 1)
       {
         tmp.x += 1.5f;
-        //transform.position = Vector2.MoveTowards(tmp, Position, step);
-        //Position.x += 1.5f;
       }
       else if (num == 2)
       {
         tmp.x += 1.5f;
-        //transform.position = Vector2.MoveTowards(tmp, Position, step);
-        //Position.x += 1.5f;
       }
       else if (num == 3)
       {
         tmp.x += 1.5f;
-        //transform.position = Vector2.MoveTowards(tmp, Position, step);
-        //Position.x += 1.5f;
       }
       else if (num == 4)
       {
-        //Position.x += 1.5f;
         tmp.x += 1.5f;
-        //transform.position = Vector2.MoveTowards(tmp, Position, step);
       }
       else if (num == 5)
       {
-        //Position.x += 1.5f;
         tmp.x += 1.5f;
-        //transform.position = Vector2.MoveTowards(tmp, Position, step);
       }
       else if (num == 6)
       {
-        //Position.y -= 1.5f;
         tmp.y -= 1.5f;
-        //transform.position = Vector2.MoveTowards(tmp, Position, step);
       }
       else if (num == 7)
       {
-        //Position.y -= 1.5f;
         tmp.y -= 1.5f;
-        //transform.position = Vector2.MoveTowards(tmp, Position, step);
       }
       else if (num == 8)
       {
-        //Position.y -= 1.5f;
         tmp.y -= 1.5f;
-        //transform.position = Vector2.MoveTowards(tmp, Position, step);
       }
       else if (num == 9)
       {
-        //Position.y -= 1.5f;
         tmp.y -= 1.5f;
-        //transform.position = Vector2.MoveTowards(tmp, Position, step);
       }
       else if (num == 10)
       {
-        //Position.y -= 1.5f;
         tmp.y -= 1.5f;
-        //transform.position = Vector2.MoveTowards(tmp, Position, step);
       }
       else if (num == 11)
       {
-        //Position.x -= 1.5f;
         tmp.x -= 1.5f;
-        //transform.position = Vector2.MoveTowards(tmp, Position, step);
       }
       else if (num == 12)
       {
-        //Position.x -= 1.5f;
         tmp.x -= 1.5f;
-        //transform.position = Vector2.MoveTowards(tmp, Position, step);
       }
       else if (num == 13)
       {
-        //Position.x -= 1.5f;
         tmp.x -= 1.5f;
-        //transform.position = Vector2.MoveTowards(tmp, Position, step);
       }
       else if (num == 14)
       {
-        //Position.x -= 1.5f;
         tmp.x -= 1.5f;
-        //transform.position = Vector2.MoveTowards(tmp, Position, step);
       }
       else if (num == 15)
       {
-        //Position.x -= 1.5f;
         tmp.x -= 1.5f;
-        //transform.position = Vector2.MoveTowards(tmp, Position, step);
       }
       else if (num == 16)
       {
-        //Position.y += 1.5f;
         tmp.y += 1.5f;
-        //transform.position = Vector2.MoveTowards(tmp, Position, step);
       }
       else if (num == 17)
       {
-        //Position.y += 1.5f;
         tmp.y += 1.5f;
-        //transform.position = Vector2.MoveTowards(tmp, Position, step);
       }
       else if (num == 18)
       {
-        //Position.y += 1.5f;
         tmp.y += 1.5f;
-        //transform.position = Vector2.MoveTowards(tmp, Position, step);
       }
       else if (num == 19)
       {
-        //Position.y += 1.5f;
-        //transform.position = Vector2.MoveTowards(tmp, Position, step);
         tmp.y += 1.5f;
       }
       else if (num == 20)
       {
         num = 0;
-        //Position.y += 1.5f;
         tmp.y += 1.5f;
       }
     }
-    //transform.position = Position;
     transform.position = Vector2.MoveTowards(transform.position, tmp, step);
-
   }
-
 }
